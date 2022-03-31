@@ -19,9 +19,9 @@ const descendingOrder = num => {
         return console.log(num)
     } 
 
-    let newNumber = [...num.toString()].map(str => parseInt(str)).sort((a, b) => b - a).join('')
+    let largestPossibleNumber = [...num.toString()].map(str => parseInt(str)).sort((a, b) => b - a).join('')
 
-    return console.log(newNumber)
+    return console.log(largestPossibleNumber)
 }
 
 descendingOrder(237485)
