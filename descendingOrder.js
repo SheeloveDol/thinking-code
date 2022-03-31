@@ -28,15 +28,8 @@ descendingOrder(237485)
 descendingOrder('you')
 descendingOrder(3)
 descendingOrder(309)
-descendingOrder()
+descendingOrder(0)
+descendingOrder(-1)
 
 
 
-// let numbers = 529085
-// let string = [...numbers.toString()].map(str => parseInt(str)).sort((a, b) => b - a).join('')
-// let split = [...string]
-// console.log(string)
-
-// let split = numbers.split('')
-// let sort = split.sort((a, b) => b - a)
-// console.log(sort)
